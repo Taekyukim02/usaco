@@ -1,0 +1,13 @@
+#include <iostream>
+#include <queue>
+#include <sort>
+
+#define MAX_N 300005
+
+using namespace std;
+
+int N, M;
+
+int main() {
+
+}

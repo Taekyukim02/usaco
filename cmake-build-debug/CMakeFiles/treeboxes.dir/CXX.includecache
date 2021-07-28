@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tkkim/usaco/contests/treeboxes.cpp
+grader.h
+/Users/tkkim/usaco/contests/grader.h
+vector
+-
+

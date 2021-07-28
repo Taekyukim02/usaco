@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tkkim/usaco/misc/Matrix.h
+iostream
+-
+cassert
+-
+climits
+-
+vector
+-
+
+/Users/tkkim/usaco/misc/p+1.cpp
+iostream
+-
+cstdlib
+-
+random
+-
+Matrix.h
+/Users/tkkim/usaco/misc/Matrix.h
+

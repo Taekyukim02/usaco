@@ -1,0 +1,3440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="usaco"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="falling">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/falling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 falling"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="falling/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/falling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 falling/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nondec">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/nondec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 nondec"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nondec/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/nondec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 nondec/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treedepth2">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treedepth2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treedepth2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treedepth2/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treedepth2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treedepth2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snowcow">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/snowcow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 snowcow"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snowcow/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/snowcow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 snowcow/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="room">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/room" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 room"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="room/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/room" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 room/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BB">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/BB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 BB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BB/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/BB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 BB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usamts2019R2P4">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/usamts2019R2P4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 usamts2019R2P4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usamts2019R2P4/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/usamts2019R2P4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 usamts2019R2P4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bessieball">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/bessieball" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 bessieball"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bessieball/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/bessieball" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 bessieball/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p+1">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p+1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p+1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p+1/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p+1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p+1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buckets">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/buckets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 buckets"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buckets/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/buckets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 buckets/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p10827">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p10827" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p10827"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p10827/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p10827" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p10827/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p836">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p836" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p836"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p836/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p836" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p836/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getrekt">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/getrekt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 getrekt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getrekt/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/getrekt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 getrekt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p256">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p256" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p256"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p256/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p256" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p256/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p10341">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p10341" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p10341"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p10341/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p10341" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p10341/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p507">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p507" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p507"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p507/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p507" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p507/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p193">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p193" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p193"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p193/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p193" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p193/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p10125">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p10125" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p10125"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p10125/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p10125" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p10125/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asyakittens">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/asyakittens" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 asyakittens"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asyakittens/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/asyakittens" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 asyakittens/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p927">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p927" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p927"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p927/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p927" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p927/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newelements2">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/newelements2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 newelements2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newelements2/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/newelements2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 newelements2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p11212">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p11212" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p11212"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p11212/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p11212" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p11212/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treedepth">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treedepth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treedepth"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treedepth/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treedepth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treedepth/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 E"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 E/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/F" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 F"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/F" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 F/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="D">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 D"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="D/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 D/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 B"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 B/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p11157">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p11157" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p11157"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p11157/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p11157" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p11157/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zeroarray">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/zeroarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeroarray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zeroarray/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/zeroarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 zeroarray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p750">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p750" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p750"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p750/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p750" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p750/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redistricting4">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/redistricting4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 redistricting4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redistricting4/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/redistricting4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 redistricting4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="importantfiles">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/importantfiles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 importantfiles"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="importantfiles/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/importantfiles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 importantfiles/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pottery">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pottery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pottery"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pottery/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pottery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pottery/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newelements1">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/newelements1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 newelements1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newelements1/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/newelements1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 newelements1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alien">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/alien" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 alien"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alien/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/alien" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 alien/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actg">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/actg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 actg"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actg/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/actg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 actg/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pylons">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pylons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pylons"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pylons/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pylons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pylons/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pylontester">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pylontester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pylontester"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pylontester/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pylontester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pylontester/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/draw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/draw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gopher">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/gopher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 gopher"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gopher/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/gopher" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 gopher/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cave">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/cave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 cave"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cave/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/cave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 cave/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p-1">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p-1/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/p-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 p-1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queuebuffet">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/queuebuffet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 queuebuffet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queuebuffet/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/queuebuffet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 queuebuffet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="badxor">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/badxor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 badxor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="badxor/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/badxor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 badxor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 A"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 A/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="valleys">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/valleys" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 valleys"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="valleys/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/valleys" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 valleys/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="problemfornazar">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/problemfornazar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 problemfornazar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="problemfornazar/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/problemfornazar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 problemfornazar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayrestore">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/arrayrestore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayrestore"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayrestore/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/arrayrestore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayrestore/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stall4">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/stall4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 stall4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stall4/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/stall4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 stall4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treeboxes">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treeboxes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treeboxes"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treeboxes/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treeboxes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treeboxes/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asyaarray">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/asyaarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 asyaarray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asyaarray/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/asyaarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 asyaarray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pylon2">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pylon2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pylon2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pylon2/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/pylon2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 pylon2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindromeless">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/palindromeless" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 palindromeless"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="palindromeless/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/palindromeless" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 palindromeless/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxmedian">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/maxmedian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxmedian"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxmedian/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/maxmedian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxmedian/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treasure">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treasure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treasure"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="treasure/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/treasure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 treasure/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mintriangle">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/mintriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 mintriangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mintriangle/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/mintriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 mintriangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usaco">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/usaco" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 usaco"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usaco/fast">
+				<Option output="/Users/tkkim/usaco/cmake-build-debug/usaco" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tkkim/usaco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 usaco/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tkkim/usaco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tkkim/usaco/UCF/BB.cpp">
+			<Option target="BB"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/UCF/room.cpp">
+			<Option target="room"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/bds/bds.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/bestspot/bestspot.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/cgiving/cgiving.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/contest/contest.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/cowroute/cowroute.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/dijkstra2/dijkstra2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/flow/flow.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/hideseek/hideseek.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/mst2/mst2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/packdel/packdel.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/goldb/picnic/picnic.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/articulation/articulation.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/balloc/balloc.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/convexhulltrick/convex.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/cowrun2/cowrun2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/cpattern/cpattern.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/damage/damage.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/expand/expand.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/expand/expand1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/fence/fence.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/fence6/fence6.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/first/first.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/gangs/gangs.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/gourmet/gourmet.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/island2/island2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/letter/letter.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/lilypad/lilypad.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/lineup2/lineup2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/lites/lites.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/mixup2/mixup2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/mou/mou.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/msched/msched.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/nearcows/nearcows.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/newbarn/newbarn.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/patterns/patterns.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/photo/photo.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/photo2/photo2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/race3/race2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/race3/race3.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/scc/scc.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/schlnet/schlnet.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/sightsee/sightsee.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/simplify/simplify.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/ski/ski.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/telephone/telephone.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/tsp/tsp.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/vacationgold/vacationgold.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/vidgame/vidgame.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/wormhole/wormhole.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/plat/xoinc/xoinc.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/A.cpp">
+			<Option target="A"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/B.cpp">
+			<Option target="B"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/C.cpp">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/D.cpp">
+			<Option target="D"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/E.cpp">
+			<Option target="E"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/F.cpp">
+			<Option target="F"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/UCF/usamts2019R2P4.cpp">
+			<Option target="usamts2019R2P4"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/bessieball.cpp">
+			<Option target="bessieball"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/astar/turing/buckets.cpp">
+			<Option target="buckets"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/actg.cpp">
+			<Option target="actg"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/antimatter.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/arithprog.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/arrayrestore.cpp">
+			<Option target="arrayrestore"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/asyaarray.cpp">
+			<Option target="asyaarray"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/asyakittens.cpp">
+			<Option target="asyakittens"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/badxor.cpp">
+			<Option target="badxor"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/beagraph.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/birds.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/blackboard.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/breakdoor.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/buylunch.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/circularrmq.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/coffeecourse.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/costree.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/coverp.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/createsnap.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/date.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/destorycol.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/draw.cpp">
+			<Option target="draw"/>
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/elongmat.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/fairnut.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/imbarr.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/importantfiles.cpp">
+			<Option target="importantfiles"/>
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/invexp.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/karensupermarket.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/kcolor.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/knighttournament.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/kquery.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/manhole.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/matrice.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/maxmedian.cpp">
+			<Option target="maxmedian"/>
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/mintriangle.cpp">
+			<Option target="mintriangle"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/monore.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/moonlight.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/mstuni.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/nastyabook.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/nastyalegend.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/palindromeless.cpp">
+			<Option target="palindromeless"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/presuf.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/problemfornazar.cpp">
+			<Option target="problemfornazar"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/queuebuffet.cpp">
+			<Option target="queuebuffet"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/randomtask.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/roundsub.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/seqdiv.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/serenbrac.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/strmul.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/treasure.cpp">
+			<Option target="treasure"/>
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/vasyarobot.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/vasyatree.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/vovawall1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/waterbuy.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/xeniabit.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/yabp.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/cf/zeroarray.cpp">
+			<Option target="zeroarray"/>
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round1a/alien.cpp">
+			<Option target="alien"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round1a/gopher.cpp">
+			<Option target="gopher"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round1a/pylon2.cpp">
+			<Option target="pylon2"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round1a/pylons.cpp">
+			<Option target="pylons"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round1a/pylontester.cpp">
+			<Option target="pylontester"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round2/newelements1.cpp">
+			<Option target="newelements1"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round2/newelements2.cpp">
+			<Option target="newelements2"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/codejam2019/round2/pottery.cpp">
+			<Option target="pottery"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/art2/art2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/art2/art2.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/balance/balance.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/balance/balance.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/barnpainting/barnpainting.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/barnpainting/barnpainting.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/bphoto/bphoto.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/cave.cpp">
+			<Option target="cave"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/checklist/checklist.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/checklist/checklist.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/cownav/cownav.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/cownomics/cownomics.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/cownomics/cownomics.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/cowpatibility/cowpatibility.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/cowpatibility/cowpatibility.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/dining/dining.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/dining/dining.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/falling.cpp">
+			<Option target="falling"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/cowdate.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/cowdate.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/mooriokart.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/mooriokart.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/mooriokart2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/mowing.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/feb19_plat/mowing.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/greedy/greedy.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/greedy/greedy.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/moocast/moocast.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/moocast/moocast.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/nondec.cpp">
+			<Option target="nondec"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/piepie/piepie.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/poetry/poetry.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/poetry/poetry.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/redistricting/redistricting.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/redistricting/redistricting.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/redistricting/redistricting2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/redistricting/redistricting3.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/redistricting/redistricting4.cpp">
+			<Option target="redistricting4"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/sleepy/sleepy.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/sleepy/sleepy.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/slingshot/slingshot.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/slingshot/slingshot.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/snowcow.cpp">
+			<Option target="snowcow"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/snowcow.in">
+			<Option target="snowcow"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/sort/sort.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/talent/talent.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/teamwork/teamwork.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/teamwork/teamwork.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/tracking2/tracking2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/treeboxes.cpp">
+			<Option target="treeboxes"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/treedepth.cpp">
+			<Option target="treedepth"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/treedepth2.cpp">
+			<Option target="treedepth2"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/valleys.cpp">
+			<Option target="valleys"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/contests/valleys.in">
+			<Option target="valleys"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/A.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/B.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/C.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/D.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/E.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/F.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/G.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/H.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/I.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/I2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/J.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/L.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/hpi2019/template.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/misc/getrekt.cpp">
+			<Option target="getrekt"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/misc/p+1.cpp">
+			<Option target="p+1"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/misc/p-1.cpp">
+			<Option target="p-1"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p10125.cpp">
+			<Option target="p10125"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p10341.cpp">
+			<Option target="p10341"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p10827.cpp">
+			<Option target="p10827"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p11157.cpp">
+			<Option target="p11157"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p11212.cpp">
+			<Option target="p11212"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p193.cpp">
+			<Option target="p193"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p256.cpp">
+			<Option target="p256"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p507.cpp">
+			<Option target="p507"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p750.cpp">
+			<Option target="p750"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p836.cpp">
+			<Option target="p836"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/newLowerBoundProblems/p927.cpp">
+			<Option target="p927"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/template/fastscan.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/template/segtree.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/agrinet/agrinet.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/agrinet/agrinet.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ariprog/ariprog.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ariprog/ariprog.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/barn1/barn1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/barn1/barn1.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/butter/butter.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/butter/butter.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/camelot/camelot.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/camelot/camelot.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/castle/castle.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/castle/castle.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/combo/combo.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/combo/combo.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/comehome/comehome.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/comehome/comehome.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/concom/concom.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/concom/concom.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/contact/contact.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/contact/contact.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/cowtour/cowtour.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/cowtour/cowtour.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/crypt1/crypt1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/crypt1/crypt1.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/dualpal/dualpal.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/dualpal/dualpal.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fact4/fact4.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fact4/fact4.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fence/fence.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fence/fence.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fence9/fence9.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fence9/fence9.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/frac1/frac1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/frac1/frac1.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fracdec/fracdec.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/fracdec/fracdec.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/game1/game1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/game1/game1.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/hamming/hamming.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/hamming/hamming.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/heritage/heritage.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/heritage/heritage.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/holstein/holstein.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/holstein/holstein.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/humble/humble.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/humble/humble.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/humble/humble2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/inflate/inflate.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/inflate/inflate.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/kimbits/kimbits.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/kimbits/kimbits.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/lamps/lamps.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/lamps/lamps.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/maze1/maze1.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/maze1/maze1.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/milk/milk.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/milk/milk.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/milk3/milk3.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/milk3/milk3.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/money/money.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/money/money.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/msquare/msquare.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/msquare/msquare.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/namenum/namenum.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/namenum/namenum.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/nocows/nocows.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/nocows/nocows.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/nuggets/nugget.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/numtri/numtri.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/numtri/numtri.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/palsquare/palsquare.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/palsquare/palsquare.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/pharmacy/pharmacy.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/pprime/pprime.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/pprime/pprime.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/preface/preface.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/preface/preface.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/prefix/prefix.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/prefix/prefix.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/range/range.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/range/range.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ratios/ratios.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ratios/ratios.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ratios/ratios2.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/rockers/rockers.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/rockers/rockers.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/runround/runround.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/runround/runround.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/shopping/shopping.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/shopping/shopping.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/skidesign/skidesign.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/skidesign/skidesign.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/sort3/sort3.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/sort3/sort3.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/spin/spin.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/spin/spin.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/sprime/sprime.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/sprime/sprime.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/stall4.cpp">
+			<Option target="stall4"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/stamps/stamps.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/stamps/stamps.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/subset/subset.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/subset/subset.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/transform/transform.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/transform/transform.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ttwo/ttwo.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/ttwo/ttwo.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/wormhole/wormhole.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/wormhole/wormhole.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/zerosum/zerosum.cpp">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/train/zerosum/zerosum.in">
+			<Option target="usaco"/>
+		</Unit>
+		<Unit filename="/Users/tkkim/usaco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

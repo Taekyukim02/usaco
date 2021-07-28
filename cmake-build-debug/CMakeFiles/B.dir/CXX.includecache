@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tkkim/usaco/astar/turing/B.cpp
+iostream
+-
+fstream
+-
+algorithm
+-
+queue
+-
+map
+-
+set
+-
+string.h
+-
+math.h
+-
+
